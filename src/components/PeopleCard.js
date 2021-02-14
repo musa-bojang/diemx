@@ -26,7 +26,7 @@ class PeopleCard extends Component {
                                                    <p>@{id}</p>
                                                    </div>
                                                    <div className="col-4">
-                                                   <i class="fas fa-plus-circle" onClick={() => this.props.removePerson(id)}></i>
+                                                   <i class="fas fa-plus-circle" style={{ color: 'red' }} onClick={() => this.props.removePerson(id)}></i>
                                                    </div>
                                         </div>
                                         {/* follow and following row */}
@@ -36,7 +36,7 @@ class PeopleCard extends Component {
                                                    <p><a href={followers_url}>Followers </a></p>
                                                    </div>
                                                    <div className="col-4">
-                                                   <p><a href={following_url}>Followings </a></p>
+                                                   <p><a href={following_url}>Following </a></p>
                                                    </div>
                                                    <div className="col-4"  >
                                                    <p className="tiny-link"><a  href={repos_url}>Repos </a></p>
