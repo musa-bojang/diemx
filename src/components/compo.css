@@ -1,0 +1,97 @@
+.container{
+ margin-top: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home{
+    margin-top: 50px;
+}
+
+.Home p {
+   
+    padding-top: 10px;
+}
+.Home button {
+    width: 120px;
+    border-radius: 0%;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ .container input {
+     width: 40%;
+ }
+ .card {
+     width: 18rem;
+ }
+ .form-group {
+     margin-top: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+ }
+ .form-group input {
+     width: 30%;
+ }
+ .rounded-circle {
+     width: 60%;
+   
+    
+ }
+ .card .row .col-5 {
+     margin-top: 40px;
+ }
+ .card {
+    height: 150px;
+    width: 350px
+ }
+ .card .row .col .row .col-8  h4{
+     font-size: 16px;
+     margin-top: 20px;
+     text-align: left;
+ }
+ .card .row .col .row .col-8  p{
+    font-size: 13px;
+    text-align: left;
+}
+.card .row .col .row .col-4  .fas {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+    color: green;
+}
+.card .row .col .row .col-4  p{
+    font-size: 10px;
+    text-align: left;
+   
+}
+
+
+.complete-btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    height: 20%;
+    margin-top: 40px;
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .fas:hover {
+    background-color: red;
+  }
+  .capman {
+      margin: 10px;
+      margin-bottom: 5px;
+      width: 400px;
+     
+  }
+  .col-4 p {
+      font-size: 7px;
+      color: black;
+  }
